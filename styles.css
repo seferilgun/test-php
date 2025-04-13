@@ -1,0 +1,67 @@
+```css
+body {
+    font-family: sans-serif;
+    background-color: #f0f8ff; /* Açık Mavi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #bdd7ee; /* Açık Mavi */
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a2c4e2; /* Daha Koyu Mavi */
+}
+
+.error {
+    color: #d8000c;
+    background-color: #ffbaba;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.result {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e6f7ff;
+    border: 1px solid #a2c4e2;
+    border-radius: 4px;
+}
+```
